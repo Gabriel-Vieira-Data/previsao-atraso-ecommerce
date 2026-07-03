@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "DuckDB Olist",
+            "dialect": "DuckDB",
+            "driver": "DuckDB",
+            "database": "${workspaceFolder}/data/processed/olist.duckdb",
+            "previewLimit": 100
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
